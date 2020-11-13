@@ -3,6 +3,7 @@
   "description": "Angular 2 Drag-and-Drop without dependencies",
   "version": "9.0.0-beta2",
   "scripts": {
+    "prepare": "npm run build",
     "test": "karma start",
     "clean": "rimraf dist",
     "test-watch": "tsc --noUnusedParameters --noUnusedLocals && karma start --no-single-run --auto-watch",
